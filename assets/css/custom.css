@@ -1,0 +1,154 @@
+.poppins{
+	font-family: 'Poppins', sans-serif;
+}
+
+.pt-sans{
+	font-family: 'PT Sans', sans-serif;
+}
+
+.fira-sans{
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.noto-serif{
+	font-family: 'Noto Serif', serif;
+}
+
+body{
+	font-family: 'Noto Serif', serif;
+	font-size: 14px;
+}
+
+address{
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.nav-wrapper{
+	background: #006db4;
+}
+
+.nav-wrapper .nav-test{
+	justify-content:center;
+}
+
+
+.navbar{
+	padding:0px;
+}
+
+.navbar .navbar-nav .nav-item a{
+	padding: 20px;
+	text-transform: uppercase;
+	font-family: 'Fira Sans', sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+
+.nav {
+    display: inline-block;
+    float: none;
+}
+
+header{
+	padding: 15px;
+    position: absolute;
+    z-index: 1;
+    border-top: 7px solid #006db4;
+    width: 100%;
+    padding-top: 10%;
+}
+
+header .slogan{
+	font-size: 62px;
+	color: #fff;
+	text-shadow: 3px 3px 3px #333;
+}
+
+.logo{
+	width: 150px;
+	margin:0px auto;
+}
+
+.logo-caption h3{
+	font-size: 70px;
+	color: #eee;
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 3px 3px 3px #333;
+}
+
+.greeting{
+	background: url(../../assets/images/pearl_PNG49.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    padding: 70px !important;
+    background-position: right bottom;
+    /*background-origin: content-box;*/
+}
+
+.greeting p{
+	background: #ffffffab;
+}
+
+.hatchery-harvest{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.research-development, .camp{
+	background: #e5eef1;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.text-title{
+	color: #006db4;
+}
+
+footer{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #00aff0;
+	color: #fff;
+}
+
+.footer-second{
+	background: #006db4;
+	padding: 10px;
+	text-align: center;
+	color: #fff;
+}
+
+@media only screen and (max-width: 400px) {
+  	header .slogan{
+		font-size: 22px;
+		color: #fff;
+		text-shadow: 3px 3px 3px #333;
+	}
+
+	.logo{
+		width: 50px;
+		margin:0px auto;
+	}
+
+	.greeting{
+		background: none;
+		padding: 0px !important;
+	}
+
+	.greeting .container{
+		width: 100%;
+	    padding-right: 15px;
+	    padding-left: 15px;
+	    margin-right: auto;
+	    margin-left: auto;
+	}
+
+
+}
+
+@media screen and ( max-width:  990px ){
+	.nav-wrapper .nav-test{
+		justify-content: left;
+	}
+}
